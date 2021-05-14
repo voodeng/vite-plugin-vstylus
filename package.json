@@ -1,0 +1,26 @@
+{
+  "name": "vite-plugin-vstylus",
+  "version": "0.1.0",
+  "description": "simply handle stylus in vite2",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voodeng/vite-plugin-vstylus.git"
+  },
+  "keywords": [
+    "vite2",
+    "stylus",
+    "vstylus",
+    "vite",
+    "vite-plugin"
+  ],
+  "author": "voodeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voodeng/vite-plugin-vstylus/issues"
+  },
+  "homepage": "https://github.com/voodeng/vite-plugin-vstylus#readme"
+}
