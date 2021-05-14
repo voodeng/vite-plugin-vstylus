@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-vstylus",
+  "name": "@voodeng/vite-plugin-vstylus",
   "version": "0.1.0",
   "description": "simply handle stylus in vite2",
   "main": "src/index.js",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/voodeng/vite-plugin-vstylus/issues"
   },
-  "homepage": "https://github.com/voodeng/vite-plugin-vstylus#readme"
+  "homepage": "https://github.com/voodeng/vite-plugin-vstylus#readme",
+  "dependencies": {
+    "stylus": "^0.54.8"
+  }
 }

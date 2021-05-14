@@ -1,19 +1,23 @@
-# vite-plugin-vstylus
+# @voodeng/vite-plugin-vstylus
 
-Simply handle `stylus` files in vite2
+_Simply handle `stylus` files in vite2_
 
 support `.styl/.stylus/.vue` file
 
-handle `@import`,`@require` url to absolut path
+it handle `@import`,`@require` relpath to absolute path
 
-can set global import in support file
+set global import file in each support file before vite transform
 
+## Usage
 
-## usage
-
-vite.config.js
 ```
-import { vStylusPlugins } from 'vite-plugin-vstylus'
+npm i @voodeng/vite-plugin-vstylus
+```
+
+- vite.config.js
+
+```
+const { vStylusPlugins } = require('@voodeng/vite-plugin-vstylus')
 
 ...
 plugins: [
@@ -25,17 +29,20 @@ plugins: [
 ...
 ```
 
-## options
+## Options
 
 options description in [Stylus-lang](https://stylus-lang.com/docs/js.html)
 
----
+------
 
-`resolveURL`: *Object*
+`resolveURL`: _Object_
 
-  - set import or url() resolve options
+- set import or url() resolve options
 
-`import`: *Array*
+`import`: _Array_
 
-  - import file in each handing file
-  - need a abs path
+- import file in each handing file
+- need a abs path
+
+------
+![](http://ww4.sinaimg.cn/large/87c01ec7gy1fo3p0pnsraj207n0130sj.jpg)
