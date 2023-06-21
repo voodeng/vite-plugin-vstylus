@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/voodeng/vite-plugin-vstylus#readme",
   "dependencies": {
-    "stylus": "^0.54.8"
+    "stylus": "^0.56.0"
   }
 }
